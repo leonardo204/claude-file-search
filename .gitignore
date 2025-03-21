@@ -1,0 +1,77 @@
+# Python 바이트 코드 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장 파일
+*.so
+
+# 배포/패키징 관련
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상 환경
+venv/
+ENV/
+env/
+.env
+
+# 로그 파일
+logs/
+*.log
+file_search_*.log
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# FastMCP 관련 파일
+.fastmcp/
+
+# 임시 파일
+temp/
+tmp/
+
+# 환경 변수 파일
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 캐시 디렉토리
+.cache/
+__pycache__/
+
+# jupyter 노트북
+.ipynb_checkpoints
+
+# pytest 캐시
+.pytest_cache/
+
+# mypy 캐시
+.mypy_cache/
+
+# 로컬 설정
+local_settings.py
+
+# 데이터베이스
+*.db
+*.sqlite3
